@@ -11,17 +11,21 @@ When the user connects to the server, an initial page appears with 3 options:
 3. Exiting the server completely (the user exits but the server still continues to operate)
 
 **You cannot register with the same name twice.
+
 **You cannot connect with a username that is not registered on the server.
+
 **You cannot log in with an incorrect password.
 
 After connecting to the server, a second page appears with these options:
 1. Create a new group
 2. Join an existing group
 3. Leave a group
-4 Log out and return to the initial screen
+4. Log out and return to the initial screen
 
 *You cannot join a group that does not exist.
+
 *Once all users leave an existing group then it is deleted.
+
 *By disconnecting from the server, the user automatically leaves all the groups he was in.
 
 Remarks: To run the program, you must first run the file "server_build.sh"
