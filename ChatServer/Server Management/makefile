@@ -5,12 +5,12 @@ CC = gcc
 CFLAGS = -ansi -g -pedantic
 OBJS = serverManagement.o testServerMan.o serverNetGen.o protocol.o user.o userManagment.o group.o groupManagement.o
 
-SERVER_NET_PASS =~/Desktop/C/ClientServer/ServerNetGen/
-PROTOCOL_PASS =~/Desktop/C/ClientServer/Protocol/
-USER_PASS =~/Desktop/C/ClientServer/User/
-GROUP_PASS =~/Desktop/C/ClientServer/Group/
-GenericDataStructures+DynamicLibrary_PASS =~/Desktop/C/GenericDataStructures+DynamicLibrary/
-GEN_LIB_PASS =~/Desktop/C/GenericDataStructures+DynamicLibrary/DaynamicLib/
+SERVER_NET_PASS = ../ServerNetGen/
+PROTOCOL_PASS = ../Protocol/
+USER_PASS = ../User/
+GROUP_PASS = ../Group/
+GenericDataStructures+DynamicLibrary_PASS = ../../GenericDataStructures+DynamicLibrary/
+GEN_LIB_PASS = ../../GenericDataStructures+DynamicLibrary/DaynamicLib/
 
 $(TARGET): $(OBJS)
 	$(CC) $(OBJS) -o $(TARGET) $(GEN_LIB_PASS)libGen.so
