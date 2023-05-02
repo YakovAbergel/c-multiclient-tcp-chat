@@ -24,8 +24,7 @@ After connecting to the server, a second page appears with these options:
 *Once all users leave an existing group then it is deleted.
 *By disconnecting from the server, the user automatically leaves all the groups he was in.
 
-Remarks:
-To run the project you need to go into the "ServerManagement" folder, open the terminal and create a run file using make and after that run the run file for the server to run.
-In addition, every user who wants to connect to the server must go into the "ClientManagement" folder, open the terminal and create a run file using make and after that run the run file so that the user can connect to the server.
+Remarks: To run the program, you must first run the file "server_build.sh"
+And then every user who wants to open has to run the file "client_build.sh".
 
-There are still some bugs that I need to fix, and there are some other nice features that can be added and improve the project.
+I use the project in generic data structures that I created, therefore the "GenericDataStructures" folder is also in the project.
