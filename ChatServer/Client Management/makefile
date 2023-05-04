@@ -5,10 +5,10 @@ CC = gcc
 CFLAGS = -ansi -g -pedantic
 OBJS = clientManagement.o testClientManagement.o clientNet.o protocol.o UI.o ChatOpen.o
 
-CLIENT_NET_PASS =~/Desktop/C/ClientServer/ClientNetGen/
-PROTOCOL_PASS =~/Desktop/C/ClientServer/Protocol/
-LIST_PASS =~/Desktop/C/Generic/
-GEN_LIB_PASS =~/Desktop/C/Generic/DaynamicLib/
+CLIENT_NET_PASS = ../ClientNetGen/
+PROTOCOL_PASS = ../Protocol/
+LIST_PASS = ./../GenericDataStructures+DynamicLibrary/
+GEN_LIB_PASS = ../../GenericDataStructures+DynamicLibrary/DaynamicLib/
 
 $(TARGET): $(OBJS)
 	$(CC) $(OBJS) -o $(TARGET) $(GEN_LIB_PASS)libGen.so
