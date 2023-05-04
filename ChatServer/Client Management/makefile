@@ -1,4 +1,3 @@
-
 #makefile ClientManagement
 
 TARGET = clientMan.out
