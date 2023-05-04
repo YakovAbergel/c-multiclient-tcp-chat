@@ -8,7 +8,7 @@ OBJS = clientManagement.o testClientManagement.o clientNet.o protocol.o UI.o Cha
 
 CLIENT_NET_PASS = ../ClientNetGen/
 PROTOCOL_PASS = ../Protocol/
-LIST_PASS = ./../GenericDataStructures+DynamicLibrary/
+LIST_PASS = ../../GenericDataStructures+DynamicLibrary/
 GEN_LIB_PASS = ../../GenericDataStructures+DynamicLibrary/DaynamicLib/
 
 $(TARGET): $(OBJS)
